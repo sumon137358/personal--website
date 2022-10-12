@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.information-section{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 400px;
+    width: auto;
+}
+.half-area-left{
+    width: 40%;
+    float: left;
+   padding:10px 20px;
+}
+.half-area-left h1{
+font-size: 25px;
+color: #ec4c7e;
+font-weight: bolder;
+}
+
+.half-area-left a{
+    color: white;
+    background-color: #ec4c7e;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15PX;
+    transition-duration: 0.6s;
+}
+.half-area-left a:hover{
+    background-color: rgb(8, 8, 8);
+}
+
+
+.half-area-right{
+    width: 40%;
+    float: right;
+    padding: 10px 10px;
+    
+}
+.half-area-left img{
+    width: 100%;
+}
+.half-area-right img{
+    width: 100%;
+}
+
+.half-area-right a{
+    color: white;
+    background-color: #ec4c7e;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15PX;
+    transition-duration: 0.8s;
+}
+.half-area-right a:hover{
+    background-color: rgb(21, 18, 211);
+  
+}
+
+.biography-section{
+   
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 400px;
+    width: auto;
+}
+.biography-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* work area section  */
+.work-area-section{
+   
+    padding: 10px;
+    min-height: 200px;
+    width: 100%;
+    
+    
+
+}
+.work-area-section h1{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+    
+}
+
+.emage-area{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+ .emage-area img{
+    max-width:30%;
+    margin: 0px 5px;
+}
+
+.footer-section{
+  margin-top: 10px;
+  height: 40px;
+  width: auto;
+}
+.footer-section p{
+    text-align: center;
+    color: rgb(88, 78, 74);
+}
+/* responsive pert  */
+@media only screen and (max-width: 600px){
+   .half-area-left,.half-area-right {
+       width: 100%;
+       text-align: center;
+       min-height: 250px;
+    }
+    .half-area-left p{
+        width: 80%;
+       margin: 15px auto;
+       
+    }
+
+    .half-area-right{
+        max-width: 80%;
+    }
+    .half-area-right p{
+        width: 80%;
+       margin: 15px auto;
+    }
+    .half-area-left{
+        max-width: 80%;
+    }
+    .emage-area{
+       
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        margin: 10px 0;
+      
+    }
+    .emage-area img{
+        min-width: 80%;
+        margin-top: 10px;
+    }
+
+    }
+
+
+
+
+@media only screen and (min-width: 700px){
+    footer{
+        margin-top: 10px;
+    }
+        
+
+    }
